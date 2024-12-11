@@ -24,7 +24,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
-          context: Dockerfile
+          context: docker.dockerfile
           push: true
           tags: ratling/repo:latest
 
